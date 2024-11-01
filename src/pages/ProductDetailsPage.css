@@ -1,0 +1,27 @@
+.product-details-page {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #4DC247;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

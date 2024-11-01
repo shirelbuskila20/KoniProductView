@@ -1,0 +1,6 @@
+body {
+    font-family: 'Heebo', sans-serif; /* החל את הגופן Heebo על כל הגוף */
+    margin: 0; /* ביטול רווחים ברירת מחדל */
+    padding: 0; /* ביטול רווחים ברירת מחדל */
+    direction: rtl;
+  }

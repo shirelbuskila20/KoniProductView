@@ -1,0 +1,38 @@
+.header {
+    display: flex;              /* השתמש ב-flexbox כדי למקם את האלמנטים בשורה */
+    align-items: center;       /* מרכז את האלמנטים באופן אנכי */
+    justify-content: space-between; /* מרווח שווה בין הלוגו לשורת החיפוש */
+    padding: 10px 20px;       /* הוסף רווח פנימי סביב ההדר */
+    background-color: #f8f8f8; /* צבע רקע להדר */
+  }
+  
+  .logo {
+    font-size: 24px;          /* גודל הפונט ללוגו */
+    font-weight: bold;        /* הדגשת הפונט של הלוגו */
+  }
+  
+  .search-container {
+    display: flex;            /* השתמש ב-flexbox עבור שורת החיפוש */
+    align-items: center;      /* מרכז את האלמנטים באופן אנכי */
+  }
+  
+  .search-container input {
+    padding: 5px;            /* הוסף רווח פנימי לשדה החיפוש */
+    margin-right: 5px;       /* הוסף רווח בין השדה ללחצן */
+    border: 1px solid #ccc;  /* גבול לשדה החיפוש */
+    border-radius: 4px;      /* פינות מעוגלות לשדה החיפוש */
+  }
+  
+  .search-container button {
+    padding: 5px 10px;       /* הוסף רווח פנימי ללחצן */
+    background-color: #4DC247; /* צבע רקע ללחצן */
+    color: white;            /* צבע טקסט ללחצן */
+    border: none;            /* ללא גבול */
+    border-radius: 4px;      /* פינות מעוגלות ללחצן */
+    cursor: pointer;         /* מחוון יד כשמרחפים על הלחצן */
+  }
+  
+  .search-container button:hover {
+    background-color: #4DC247; /* צבע רקע ללחצן כאשר מרחפים מעליו */
+  }
+  
