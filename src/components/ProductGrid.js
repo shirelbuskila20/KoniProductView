@@ -2,6 +2,8 @@ import React from 'react';
 import ProductCard from './ProductCard';
 import './ProductGrid.css';
 
+//A component that organizes and displays a grid layout of product items.
+
 function ProductGrid({ products }) {
   return (
     <div className="product-grid">

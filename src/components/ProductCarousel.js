@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './ProductCarousel.css';
 
+//A carousel component for showcasing multiple images of a product in a slideshow format.
+
 const ProductCarousel = ({ images }) => {
   const [mainImageIndex, setMainImageIndex] = useState(0);
 

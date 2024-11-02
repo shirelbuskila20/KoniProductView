@@ -2,6 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ProductCard.css';
 
+//The ProductCard component displays a product and navigates to its details on click.
+
+
 function ProductCard({ product }) {
   const navigate = useNavigate();
 

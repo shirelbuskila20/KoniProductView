@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 import { fetchProducts } from '../services/api';
 import ProductGrid from '../components/ProductGrid';
 
+//Shows search results for a specific term entered by the user. Filters and displays products that match the search term.
+
 function SearchResultsPage() {
   const location = useLocation();
   const searchTerm = new URLSearchParams(location.search).get('q');

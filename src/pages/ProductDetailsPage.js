@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 import './ProductDetailsPage.css';
 import ProductCarousel from '../components/ProductCarousel';
 
+//Displays detailed information about a selected product, including a carousel for images, title, price, and description.
+
 function ProductDetailsPage() {
   const location = useLocation();
   const { product } = location.state || {};

@@ -1,5 +1,7 @@
 import axios from 'axios';
 
+//Contains functions for fetching data from an external API, including retrieving all products and product details.
+
 const BASE_URL = 'https://tinyurl.com/vht7ah2';
 
 export const fetchProducts = async () => {
