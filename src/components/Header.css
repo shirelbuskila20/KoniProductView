@@ -1,38 +1,38 @@
 .header {
-    display: flex;              /* השתמש ב-flexbox כדי למקם את האלמנטים בשורה */
-    align-items: center;       /* מרכז את האלמנטים באופן אנכי */
-    justify-content: space-between; /* מרווח שווה בין הלוגו לשורת החיפוש */
-    padding: 10px 20px;       /* הוסף רווח פנימי סביב ההדר */
-    background-color: #f8f8f8; /* צבע רקע להדר */
+    display: flex;              
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 10px 20px;       
+    background-color: #f8f8f8; 
   }
   
   .logo {
-    font-size: 24px;          /* גודל הפונט ללוגו */
-    font-weight: bold;        /* הדגשת הפונט של הלוגו */
+    font-size: 24px;          
+    font-weight: bold;        
   }
   
   .search-container {
-    display: flex;            /* השתמש ב-flexbox עבור שורת החיפוש */
-    align-items: center;      /* מרכז את האלמנטים באופן אנכי */
+    display: flex;            
+    align-items: center;      
   }
   
   .search-container input {
-    padding: 5px;            /* הוסף רווח פנימי לשדה החיפוש */
-    margin-right: 5px;       /* הוסף רווח בין השדה ללחצן */
-    border: 1px solid #ccc;  /* גבול לשדה החיפוש */
-    border-radius: 4px;      /* פינות מעוגלות לשדה החיפוש */
+    padding: 5px;            
+    margin-right: 5px;       
+    border: 1px solid #ccc;  
+    border-radius: 4px;      
   }
   
   .search-container button {
-    padding: 5px 10px;       /* הוסף רווח פנימי ללחצן */
-    background-color: #4DC247; /* צבע רקע ללחצן */
-    color: white;            /* צבע טקסט ללחצן */
-    border: none;            /* ללא גבול */
-    border-radius: 4px;      /* פינות מעוגלות ללחצן */
-    cursor: pointer;         /* מחוון יד כשמרחפים על הלחצן */
+    padding: 5px 10px;       
+    background-color: #4DC247; 
+    color: white;            
+    border: none;            
+    border-radius: 4px;      
+    cursor: pointer;         
   }
   
   .search-container button:hover {
-    background-color: #4DC247; /* צבע רקע ללחצן כאשר מרחפים מעליו */
+    background-color: #4DC247; 
   }
   
