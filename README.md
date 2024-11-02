@@ -1,7 +1,7 @@
 # Product Search Application - KoniProductView
 
-Shirel Buskila Zarka
-shirelbuskila17@gmail.com**
+**Shirel Buskila Zarka**
+**shirelbuskila17@gmail.com**
 
 This application is built using React and allows users to search for products, view detailed information about them, and scroll through product images in a carousel.
 
